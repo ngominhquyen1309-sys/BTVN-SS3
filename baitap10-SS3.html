@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CatPhoToApp</h1>
+    <h2>Cat photos</h2>
+    <p>Everyone loves <a href="https://www.google.com/search?q=cute+cats" target="_blank">cute cats</a> online!</p>
+    <p>See more <a href="gallery.html" target="_blank">cat photos</a> in our gallery!</p>
+    <img width="300" height="300" src="https://theselfishmeme.co.uk/wp-content/uploads/2025/11/avatar-anh-meo-cute-4.webp" alt="Cute Cat">
+    <br>
+    <h2>Cat lists</h2>
+    <h3>Things cats love</h3>
+    <ul>
+        <li>Cat nip</li>
+        <li>laser pointer</li>
+        <li>lasagna</li>
+    </ul>
+    <img width="300" height="300" src="https://thebrilliantkitchen.com/wp-content/uploads/2022/07/How-Long-Am-I-Required-To-Bake-Lasagna.jpg" alt="Cats love lasagna"><br>
+    <p>Cats love lasagna!</p>
+    <h3>Top 3 things cats hate</h3>
+    <ol>
+        <li>flea treatment</li>
+        <li>Thunder</li>
+        <li>Other cats</li>
+    </ol>
+    <img width="300" height="300" src="https://tse4.mm.bing.net/th/id/OIP.IBS6P4xgRvZ5Rw3WXWq3swHaE-?r=0&cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cats hate"><br>
+    <p>Cats hate other cats!</p>
+     <session>
+        <h2>Cat Breeds</h2>
+        <hr  />
+        <table border="4">
+              <thead>
+                <tr>
+                <th>Breed</th>
+                <th>Location of origin</th>
+                <th>Type</th>
+                <th>Body type</th>
+                <th>Coat type and length</th>
+                <th>Coat pattern</th>
+                <th>Image</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Abyssinian_(cat)" target="_blank">Abyssinian</a><sup>[9]</sup></td>
+                <td>Unspecified, but somewhere in Afro-Asia, likely Ethiopia <sup>[10]</sup></td>
+                <td>Natural</td>
+                <td>Semi-foreign</td>
+                <td>Short</td>
+                <td>Ticked tabby</td>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/960px-Gustav_chocolate.jpg" alt="Abyssinian" width="100" height="100"/>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Aegean_cat" target="_blank">Aegean</a></td>
+                <td>Greece</td>
+                <td>Natural</td>
+                <td>Moderate</td>
+                <td>Semi-long</td>
+                <td>Multi-color</td>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Aegean_cat.jpg" alt="Aegean" width="100" height="100"/>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/American_Bobtail" target="_blank">American Bobtail</a><sup>[11]</sup></td>
+                <td>United States<sup>[12]</sup></td>
+                <td>Mutation of shortened tail</td>
+                <td>Cobby</td>
+                <td>Semi-long</td>
+                <td>All</td>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/American_bobtail_2.jpg/960px-American_bobtail_2.jpg" alt="American Bobtail" width="100" height="100"/>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/American_Curl" target="_blank">American Curl</a><sup>[13]</sup></td>
+                <td>United States</td>
+                <td>Mutation of curly tail</td>
+                <td>Moderate</td>
+                <td>Semi-long</td>
+                <td>All</td>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/EC_Recknagel_Annakurnikoova_ACS_gs_24.JPG" alt="American Curl" width="100" height="100"/>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </session>
+    <br>
+    <h2>Cat Form</h2>
+    <fieldset>
+    <legend>Is your cat an indoor or outdoor cat?</legend>
+    <form action="submit-cat-form.php" method="post">
+        <label for="indoor">Indoor</label>
+        <input type="radio" id="indoor" name="cat-type" value="indoor" required>
+        <label for="outdoor">Outdoor</label>
+        <input type="radio" id="outdoor" name="cat-type" value="outdoor" required>
+    </fieldset>
+    <fieldset>
+    <legend>What's your cat's personality?</legend>
+    <form action="submit-cat-form.php" method="post">
+        <label for="loving">Loving</label>
+        <input type="radio" id="loving" name="cat-personality" value="loving" required>
+        <label for="lazy">Lazy</label>
+        <input type="radio" id="lazy" name="cat-personality" value="lazy" required>
+        <label for="energetic">Energetic</label>
+        <input type="radio" id="energetic" name="cat-personality" value="energetic" required>
+        </fieldset>
+        <input type="text" id="Cat photo url" name="cat-photo-url" placeholder="cat's photo URL" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<footer>No copy right - <a href="https://rikkei.edu.vn" target="_blank">rikkei.edu.vn</a></footer>
+</html>
